@@ -2,51 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/</loc>
+    <loc>/</loc>
     <lastmod>2023-06-12T15:01:35+03:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/arizona/</loc>
+    <loc>/tags/arizona/</loc>
     <lastmod>2023-06-12T15:01:35+03:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/job-news/</loc>
+    <loc>/posts/job-news/</loc>
     <lastmod>2023-06-12T15:01:35+03:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/job/</loc>
+    <loc>/tags/job/</loc>
     <lastmod>2023-06-12T15:01:35+03:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/life/</loc>
+    <loc>/tags/life/</loc>
     <lastmod>2023-06-12T15:01:35+03:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2023-06-12T15:01:35+03:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2023-06-12T15:01:35+03:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/tps/</loc>
+    <loc>/tags/tps/</loc>
     <lastmod>2023-06-12T15:01:35+03:00</lastmod>
   </url><url>
-    <loc>http://example.org/works/</loc>
+    <loc>/works/</loc>
     <lastmod>2022-01-10T08:01:35+03:00</lastmod>
   </url><url>
-    <loc>http://example.org/works/performances/</loc>
+    <loc>/works/performances/</loc>
     <lastmod>2022-01-10T08:01:35+03:00</lastmod>
   </url><url>
-    <loc>http://example.org/works/lessons/</loc>
+    <loc>/works/lessons/</loc>
     <lastmod>2022-01-09T08:01:35+03:00</lastmod>
   </url><url>
-    <loc>http://example.org/works/services/</loc>
+    <loc>/works/services/</loc>
     <lastmod>2022-01-08T08:01:35+03:00</lastmod>
   </url><url>
-    <loc>http://example.org/works/miscellaneous/</loc>
+    <loc>/works/miscellaneous/</loc>
     <lastmod>2022-01-07T08:01:35+03:00</lastmod>
   </url><url>
-    <loc>http://example.org/about/</loc>
+    <loc>/about/</loc>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>http://example.org/contact/</loc>
+    <loc>/contact/</loc>
   </url><url>
-    <loc>http://example.org/elements/</loc>
+    <loc>/elements/</loc>
   </url>
 </urlset>
