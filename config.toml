@@ -1,0 +1,228 @@
+#-------------------------------
+# General Site Settings
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = ""
+googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
+paginate = 5
+
+
+[params]
+  logo = "" # You can add own logo. For example "/images/logo.png".
+  description = "Creative Portfolio Theme for Hugo"
+  color_scheme = "auto" # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+
+
+#-------------------------------
+# Main Menu
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    name = "My Works"
+    url = "/works/"
+    weight = 3
+
+  [[menu.main]]
+    name = "News"
+    url = "/posts/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Contact"
+    weight = 5
+    url = "/contact"    
+  #  hasChildren = true
+
+#  [[menu.main]]
+#    parent = "Pages"
+#    name = "Contact"
+#    url = "/contact/"
+#    weight = 1
+
+#  [[menu.main]]
+#    parent = "Pages"
+#    name = "Elements"
+#    url = "/elements/"
+#    weight = 2
+
+
+  #-------------------------------
+  # Author Settings
+  [params.author]
+    author__name = "Amanda Izzo"
+    author__bio = "Hi, I'm Amanda – a professional flutist, playing professionally in China, UK and US for over 10 years. I am the newly appointed Acting Second Flute of the Phoenix Symphony"
+    #author__avatar = "https://scontent-lga3-1.xx.fbcdn.net/v/t1.18169-9/23794803_10100852882299270_2409440848664292811_n.jpg?_nc_cat=108&cb=99be929b-3346023f&ccb=1-7&_nc_sid=7a1959&_nc_ohc=D7YkdkkwJCAAX8mrkB9&_nc_ht=scontent-lga3-1.xx&oh=00_AfBwB15xapqYea4mb07oYgfhKKazB_x7TLMrWQORfsIa1g&oe=64FE914A"
+    author__avatar = "/images/avatar.jpg"
+  # Social Links
+  [[params.social]]
+    icon = "ion-logo-twitter"
+    name = "Twitter"
+    link = "https://twitter.com"
+
+  [[params.social]]
+    icon = "ion-logo-facebook"
+    name = "Facebook"
+    link = "https://facebook.com"
+
+  [[params.social]]
+    icon = "ion-logo-instagram"
+    name = "Instagram"
+    link = "https://instagram.com"
+
+  [[params.social]]
+    icon = "ion-logo-pinterest"
+    name = "Pinterest"
+    link = "https://pinterest.com"
+
+  [[params.social]]
+    icon = "ion-logo-github"
+    name = "Github"
+    link = "https://github.com"
+
+  [[params.social]]
+    icon = "ion-logo-vimeo"
+    name = "Vimeo"
+    link = "https://vimeo.com"
+
+  # Example of adding a new link to the footer:
+  # [[params.social]]
+  #   icon = "ion-logo-youtube"
+  #   name = "Youtube"
+  #   link = "https://youtube.com"
+
+  # Other icons can be found at https://ionicons.com/v4/
+
+
+  #-------------------------------
+  # Hero Settings
+  [params.hero]
+    enable = true
+    hero__title = "Hey everyone, I’m Amanda Izzo"
+    hero__description = "Hi, I'm Amanda – a professional flutist, playing professionally in China, UK and US for over 10 years. I am the newly appointed Acting Second Flute of the Phoenix Symphony"
+    #hero__image = "https://scontent-lga3-2.xx.fbcdn.net/v/t1.6435-9/38152792_10100968510783860_922450892328796160_n.jpg?_nc_cat=105&cb=99be929b-3346023f&ccb=1-7&_nc_sid=7a1959&_nc_ohc=gfFKeXLq2wgAX_Is0Oh&_nc_ht=scontent-lga3-2.xx&oh=00_AfCktZYkHOKZdlVyhLA8PjE3MDQ50s7Rdv4OPWwlqSZnxQ&oe=64FE9829" 
+    hero__image = "/images/hero3.jpg"
+    #-------------------------------
+    # Logos Settings
+    [params.logos]
+      enable = true
+      logos__title = "I’ve worked in some great orchestras"
+
+    [[params.logo_item]]
+      name = "Phoenix"
+      link = "https://www.phoenixsymphony.org/"
+      image = "/images/phoenix.svg"
+
+    [[params.logo_item]]
+      name = "National"
+      link = "http://www.chncpa.org/"
+      image = "/images/national.svg"
+
+    [[params.logo_item]]
+      name = "Central"
+      link = "https://www.chinaopera.com.cn/"
+      image = "/images/central.png"
+
+    [[params.logo_item]]
+      name = "Sinfonia"
+      link = "https://www.southbanksinfonia.co.uk/"
+      image = "/images/sinfonia.png"
+
+    [[params.logo_item]]
+      name = "Chinaph"
+      link = "https://hd-hall.com/"
+      image = "/images/chinaph2.svg"
+
+  #-------------------------------
+  # Newsletter Settings
+  [params.mailchimp]
+    enable = true
+    mailchimp__identifier = "frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3" # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+    mailchimp__input__text = "Your email address..."
+    mailchimp__button__text = "Subscribe" # Add your button text
+
+
+  #-------------------------------
+  # Work Settings
+  [params.work]
+    enable = true
+    work__title= "My Works"
+    work__description= "I have worked in China, UK and US over the last ten years. Most recently, I’ve been performing as Acting Second Flute of the Phoenix Symphony. Interested in seeing me perform live? Subscribe to news and I’ll let you know where I’m playing next!"
+
+  #-------------------------------
+  # Testimonials Section
+  [params.testimonials]
+    enable = true
+    testimonial__title = "Testimonials"
+    testimonial__description = ""
+
+  [[params.testimonial_item]]
+    name = "Dr. Jun Yuan"
+    image = "https://media.licdn.com/dms/image/C5603AQEzVBXQMCNpzw/profile-displayphoto-shrink_400_400/0/1517637043214?e=1697673600&v=beta&t=enoEVg1ATzxwi0xGhOrqfqX1CVmSz43KLAwEyTFtyGs"
+    designation = "Flute lessons"
+    link = "https://twitter.com/"
+    content = "Blah Blah Blah,  She is really good at teaching Kelvin.  Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah blah blah blah blah blah blah blah blah"
+
+  [[params.testimonial_item]]
+    name = "Homer Sympson"
+    image = "https://www.onthisday.com/images/people/homer-simpson.jpg?w=360"
+    designation = "I am your Boss!"
+    link = "https://facebook.com/"
+    content = "Blah Blah Blah,  She is really good at yyyyyyyyyyyyyyyyyy.  Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah blah blah blah blah blah blah blah blah"
+
+  [[params.testimonial_item]]
+    name = "Bender Bending Rodríguez"
+    image = "https://static.tvtropes.org/pmwiki/pub/images/futuramabender.png"
+    designation = "I am your Prof!"
+    link = "https://twitter.com/"
+    content = "Blah Blah Blah,  She is really good at xxxxxxxxxxxxxxxxxx.  Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah blah blah blah blah blah blah blah blah"
+  
+  #-------------------------------
+  # Blog Section
+  [params.blog]
+    enable = true
+    blog__title = "News"
+    blog__description = ""
+
+
+  #-------------------------------
+  # Footer Settings
+  [params.footer]
+    #footer__background__image = "https://via.placeholder.com/1920x1080"
+    footer__background__image = "/images/bottom2.jpg"
+
+
+  #-------------------------------
+  # Contact Settings
+  [params.contact]
+    contact__email = "your@email.com" # Add your form_id
+
+    # NOTE
+    # Akio theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+  #-------------------------------
+  # Comment Section (Disqus)
+  [params.disqus]
+    enable = true
+    disqusShortname = "anvod-studio-test" # Add your shortname for Disqus Comment. For example anvod-studio-test
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[markup.highlight]
+  codeFences = true
+  guessSyntax = true
+  noClasses = false
